@@ -1,16 +1,18 @@
 plugins {
     id 'com.android.application'
-    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'kotlin-android-extensions'
 }
 
 android {
     namespace 'com.odesar.mapabioculturalinteractivosandionisio'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.odesar.mapabioculturalinteractivosandionisio"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -30,15 +32,62 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    apply plugin: 'com.android.application'
+    apply plugin: 'kotlin-android'
+    apply plugin: 'kotlin-kapt'
+    apply plugin: 'kotlin-android-extensions'
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    assetPacks = [":fotos_asset_pack"]
 }
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.7.0'
+    //Libreria para cargar imagenes de forma mas efectiva
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+    //Alternativa a Glide
+    implementation 'com.squareup.picasso:picasso:2.8'
+
+    //Libreria para pan and zoom en imagenes
+    implementation("com.otaliastudios:zoomlayout:1.9.0")
+
+    //Libreria para justificar texto
+    implementation 'com.codesgood:justifiedtextview:1.1.0'
+
+    //Libreria para Coroutines de Kotlin
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.0-alpha03"
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.7.20"
+    implementation 'androidx.core:core-ktx:1.9.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    testImplementation 'junit:junit:4.13.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //Librerias para Room
+    def room_version = "2.4.3"
+    implementation("androidx.room:room-runtime:$room_version")
+
+    // To use Kotlin annotation processing tool (kapt)
+    kapt("androidx.room:room-compiler:$room_version")
+    // optional - Kotlin Extensions and Coroutines support for Room
+    implementation("androidx.room:room-ktx:$room_version")
+
+    //Jackson para trabajar JSON
+    implementation 'com.fasterxml.jackson.module:jackson-module-kotlin:2.12.1'
+
+    //Libreria para los assets packs de Google Play
+    implementation 'com.google.android.play:core:1.10.3'
 }

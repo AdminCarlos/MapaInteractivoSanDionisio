@@ -6,13 +6,189 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <ImageView
+        android:id="@+id/imageFondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:clickable="true">
+
+    </ImageView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:id="@+id/menuControls"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_menu_lateral"
+        android:orientation="vertical"
+        app:layout_constraintHeight_percent="0.40"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".15">
+
+        <ImageView
+            android:id="@+id/btnSearch"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="?android:attr/selectableItemBackground"
+            app:layout_constraintBottom_toTopOf="@id/btnPlusZoom"
+            app:layout_constraintEnd_toEndOf="@id/menuControls"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintStart_toStartOf="@id/menuControls"
+            app:layout_constraintTop_toTopOf="@id/menuControls"
+            app:layout_constraintWidth_percent="1"
+            app:srcCompat="@drawable/buscar" />
+
+        <ImageView
+            android:id="@+id/btnPlusZoom"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="?android:attr/selectableItemBackground"
+            app:layout_constraintBottom_toTopOf="@id/btnMinusZoom"
+            app:layout_constraintEnd_toEndOf="@id/menuControls"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintStart_toStartOf="@id/menuControls"
+            app:layout_constraintTop_toBottomOf="@id/btnSearch"
+            app:layout_constraintWidth_percent="1"
+            app:srcCompat="@drawable/mas" />
+
+        <ImageView
+            android:id="@+id/btnMinusZoom"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="?android:attr/selectableItemBackground"
+            app:layout_constraintBottom_toTopOf="@id/btnInfo"
+            app:layout_constraintEnd_toEndOf="@id/menuControls"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintStart_toStartOf="@id/menuControls"
+            app:layout_constraintTop_toBottomOf="@id/btnPlusZoom"
+            app:layout_constraintWidth_percent="1"
+            app:srcCompat="@drawable/menos" />
+
+        <ImageView
+            android:id="@+id/btnInfo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="?android:attr/selectableItemBackground"
+            app:layout_constraintBottom_toBottomOf="@id/menuControls"
+            app:layout_constraintEnd_toEndOf="@id/menuControls"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintStart_toStartOf="@id/menuControls"
+            app:layout_constraintTop_toBottomOf="@id/btnMinusZoom"
+            app:layout_constraintWidth_percent="1"
+            app:srcCompat="@drawable/leyendas" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutPadreEditText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintWidth_percent="0.85"
+        app:layout_constraintStart_toEndOf="@+id/menuControls"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <EditText
+            android:id="@+id/eTxtBuscar"
+            android:visibility="invisible"
+            android:alpha="0.0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:textColor="#000000">
+
+        </EditText>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.otaliastudios.zoom.ZoomLayout
+        android:id="@+id/zoomImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:flingEnabled="true"
+        app:hasClickableChildren="true"
+        app:maxZoom="30"
+        app:minZoom="1"
+        app:overScrollHorizontal="true"
+        app:overScrollVertical="true"
+        app:threeFingersScrollEnabled="false"
+        app:twoFingersScrollEnabled="false"
+        android:focusableInTouchMode="true"
+        android:clickable="true">
+
+        <RelativeLayout
+            android:id="@+id/framePadre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageView
+                android:id="@+id/imgMapa"
+                android:layout_width="3316px"
+                android:layout_height="3242px"
+                android:src="@drawable/mapa"
+                android:tag="mapaPrincipal">
+
+            </ImageView>
+
+        </RelativeLayout>
+
+    </com.otaliastudios.zoom.ZoomLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent=".15"
+        app:layout_constraintHeight_percent=".10"
+        android:background="#82000000">
+
+        <ImageView
+            android:id="@+id/btnExtraInfo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="0.5"
+            app:layout_constraintWidth_percent="1"
+            android:background="?android:attr/selectableItemBackground"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/extra" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:id="@+id/sidePanel"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.7"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/containerSidePanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
