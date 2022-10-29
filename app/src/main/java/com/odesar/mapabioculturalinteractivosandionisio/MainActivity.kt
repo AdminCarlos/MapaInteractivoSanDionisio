@@ -5,9 +5,12 @@ import android.content.Context
 import android.content.res.AssetManager
 import android.content.res.Resources
 import android.graphics.Color
+import android.graphics.Matrix
 import android.graphics.Rect
 import android.net.Uri
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.transition.Fade
 import android.view.Gravity
 import android.view.View
@@ -19,15 +22,20 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.res.ResourcesCompat
 import androidx.core.view.ViewCompat
+import androidx.core.view.children
 import androidx.core.view.doOnLayout
 import androidx.lifecycle.lifecycleScope
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.target.Target
 import com.odesar.mapabioculturalinteractivosandionisio.Database.AppDatabase
 import com.odesar.mapabioculturalinteractivosandionisio.Entities.Lugares
+import com.odesar.mapabioculturalinteractivosandionisio.Fragments.ExtraInfoDialog
 import com.odesar.mapabioculturalinteractivosandionisio.Fragments.InfoDialog
+import com.odesar.mapabioculturalinteractivosandionisio.Fragments.LeyendasDialog
 import com.odesar.mapabioculturalinteractivosandionisio.databinding.ActivityMainBinding
+import com.otaliastudios.zoom.ZoomEngine
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -114,7 +122,7 @@ class MainActivity : AppCompatActivity() {
 
             lifecycleScope.launch(Dispatchers.Main) {
 
-                /*zoomImage.engine.addListener(object : ZoomEngine.Listener {
+                zoomImage.engine.addListener(object : ZoomEngine.Listener {
 
                     override fun onUpdate(engine: ZoomEngine, matrix: Matrix) {
 
@@ -124,6 +132,8 @@ class MainActivity : AppCompatActivity() {
 
                                 val container = it as LinearLayout
 
+                                container.pivotX = ((container.width / 2).toFloat())
+                                container.pivotY = ((container.height / 2).toFloat())
                                 container.scaleX = zoomLevels[zoomImage.zoom.toInt()]
                                 container.scaleY = zoomLevels[zoomImage.zoom.toInt()]
 
@@ -172,7 +182,7 @@ class MainActivity : AppCompatActivity() {
 
                     }
 
-                })*/
+                })
 
             }
 
@@ -185,6 +195,114 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
+
+        binding.btnPlusZoom.setOnClickListener {
+
+            zoomImage.zoomBy(1.6F, true)
+        }
+
+        binding.btnMinusZoom.setOnClickListener {
+
+            zoomImage.zoomBy(0.6F, true)
+
+        }
+
+        binding.btnSearch.setOnClickListener {
+
+            if (binding.eTxtBuscar.visibility == View.INVISIBLE) {
+
+                binding.eTxtBuscar.visibility = View.VISIBLE
+                binding.eTxtBuscar.animate().alpha(1.0F)
+                binding.eTxtBuscar.requestFocus()
+                showSoftKeyboard(this@MainActivity, binding.eTxtBuscar)
+
+            }
+
+            else {
+
+                binding.eTxtBuscar.animate().alpha(0.0F)
+                binding.eTxtBuscar.visibility = View.INVISIBLE
+                binding.eTxtBuscar.text = null
+                framePadre.children.forEach {
+
+                    if (it.tag == "containerInfo") {
+
+                        val container = it as LinearLayout
+
+                        it.visibility = View.VISIBLE
+
+                    }
+
+                }
+                hideSoftKeyboard(this@MainActivity, binding.eTxtBuscar)
+            }
+
+        }
+
+        binding.btnInfo.setOnClickListener {
+
+            val dialogLeyendas = LeyendasDialog()
+            dialogLeyendas.show(supportFragmentManager, "LeyendasDialog")
+
+        }
+
+        binding.btnExtraInfo.setOnClickListener{
+
+            val dialogExtraInfo = ExtraInfoDialog()
+            dialogExtraInfo.show(supportFragmentManager, "ExtraInfoDialog")
+
+        }
+
+        binding.eTxtBuscar.addTextChangedListener(object  : TextWatcher {
+
+            override fun afterTextChanged(s: Editable?) {
+
+                if (s.toString().isNotEmpty()) {
+
+                    framePadre.children.forEach {
+
+                        if (it.tag == "containerInfo") {
+
+                            val container = it as LinearLayout
+
+                            if (container.children.elementAt(0).tag.toString().contains(s.toString(), true)) {
+
+                                it.visibility = View.VISIBLE
+
+                            }
+
+                            else {
+
+                                it.visibility = View.INVISIBLE
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+            override fun beforeTextChanged(
+                s: CharSequence?,
+                start: Int,
+                count: Int,
+                after: Int
+            ) {
+            }
+
+            override fun onTextChanged(
+                s: CharSequence?,
+                start: Int,
+                before: Int,
+                count: Int
+            ) {
+
+            }
+
+        })
 
     }
 
@@ -221,13 +339,13 @@ class MainActivity : AppCompatActivity() {
                             container.gravity = Gravity.CENTER_HORIZONTAL
                             ViewCompat.setZ(container, 2.0F)
                             container.layoutParams.height = LinearLayout.LayoutParams.WRAP_CONTENT
-                            container.layoutParams.width = (imgMapa.width * 0.015).roundToInt()
+                            container.layoutParams.width = (imgMapa.width * 0.04).roundToInt()
                             container.pivotX = 0F
                             container.pivotY = 0F
 
-                            iconoLugar.layoutParams.height = (imgMapa.height * 0.015).roundToInt()
-                            iconoLugar.layoutParams.width = (imgMapa.width * 0.015).roundToInt()
-//                            iconoLugar.setPadding(6, 6, 6, 6)
+                            iconoLugar.layoutParams.height = (imgMapa.height * 0.04).roundToInt()
+                            iconoLugar.layoutParams.width = (imgMapa.width * 0.04).roundToInt()
+                            iconoLugar.setPadding(6, 6, 6, 6)
 
                             val X = (((lugar.coordX!! / 100) * imgMapa.width) - (iconoLugar.layoutParams.width / 2))
                             val Y = (((lugar.coordY!! / 100) * imgMapa.height) - (iconoLugar.layoutParams.height / 2))

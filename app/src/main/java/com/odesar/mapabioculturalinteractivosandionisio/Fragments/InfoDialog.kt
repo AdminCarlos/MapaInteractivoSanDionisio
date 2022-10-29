@@ -60,7 +60,7 @@ class InfoDialog(var lugar: Lugares) : DialogFragment() {
         contexto = requireActivity()
 
         val customContext =
-            contexto.createPackageContext("com.odesar.mapabioculturalinteractivosanramn", 0)
+            contexto.createPackageContext("com.odesar.mapabioculturalinteractivosandionisio", 0)
         val assetManager = customContext.assets
 
         val db = AppDatabase.getDatabase(contexto)
