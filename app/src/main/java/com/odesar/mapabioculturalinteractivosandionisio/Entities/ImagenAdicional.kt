@@ -15,6 +15,8 @@ data class ImagenAdicional(
 
     var src : String?,
 
-    var thumbnail : String?
+    var thumbnail : String?,
+
+    var video : Int
 
 )

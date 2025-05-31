@@ -13,6 +13,8 @@ data class Categorias(
     var nombre : String,
 
     @ColumnInfo(name = "ruta_icono")
-    var rutaIcono : String
+    var rutaIcono : String,
+
+    var icono : String?
 
 )

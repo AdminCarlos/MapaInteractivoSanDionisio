@@ -7,6 +7,7 @@ import android.content.res.Resources
 import android.graphics.Color
 import android.graphics.Matrix
 import android.graphics.Rect
+import android.graphics.drawable.Drawable
 import android.net.Uri
 import android.os.Bundle
 import android.text.Editable
@@ -32,7 +33,7 @@ import com.bumptech.glide.request.target.Target
 import com.odesar.mapabioculturalinteractivosandionisio.Database.AppDatabase
 import com.odesar.mapabioculturalinteractivosandionisio.Entities.Lugares
 import com.odesar.mapabioculturalinteractivosandionisio.Fragments.ExtraInfoDialog
-import com.odesar.mapabioculturalinteractivosandionisio.Fragments.InfoDialog
+import com.odesar.mapabioculturalinteractivosandionisio.Fragments.InformationDialog
 import com.odesar.mapabioculturalinteractivosandionisio.Fragments.LeyendasDialog
 import com.odesar.mapabioculturalinteractivosandionisio.databinding.ActivityMainBinding
 import com.otaliastudios.zoom.ZoomEngine
@@ -44,28 +45,16 @@ import kotlin.math.roundToInt
 
 class MainActivity : AppCompatActivity() {
 
+    //HACER UN Build > Clean Project CUANDO HAYA ERROR DE NULL VIEW ID
+
+    private lateinit var binding : ActivityMainBinding
+
     lateinit var customContext: Context
     lateinit var db: AppDatabase
     lateinit var assetManager: AssetManager
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-        with(window) {
-
-            requestFeature(Window.FEATURE_CONTENT_TRANSITIONS)
-
-            enterTransition = Fade()
-
-            exitTransition = Fade()
-
-            enterTransition.duration = 1000
-
-        }
-
-        val binding = ActivityMainBinding.inflate(layoutInflater)
-        val view = binding.root
-        setContentView(view)
+    override fun onStart() {
+        super.onStart()
 
         db = AppDatabase.getDatabase(this)
 
@@ -122,11 +111,11 @@ class MainActivity : AppCompatActivity() {
 
             lifecycleScope.launch(Dispatchers.Main) {
 
-                zoomImage.engine.addListener(object : ZoomEngine.Listener {
+                binding.zoomImage.engine.addListener(object : ZoomEngine.Listener {
 
                     override fun onUpdate(engine: ZoomEngine, matrix: Matrix) {
 
-                        framePadre.children.forEach {
+                        binding.framePadre.children.forEach {
 
                             if (it.tag == "containerInfo") {
 
@@ -198,12 +187,12 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnPlusZoom.setOnClickListener {
 
-            zoomImage.zoomBy(1.6F, true)
+            binding.zoomImage.zoomBy(1.6F, true)
         }
 
         binding.btnMinusZoom.setOnClickListener {
 
-            zoomImage.zoomBy(0.6F, true)
+            binding.zoomImage.zoomBy(0.6F, true)
 
         }
 
@@ -223,7 +212,7 @@ class MainActivity : AppCompatActivity() {
                 binding.eTxtBuscar.animate().alpha(0.0F)
                 binding.eTxtBuscar.visibility = View.INVISIBLE
                 binding.eTxtBuscar.text = null
-                framePadre.children.forEach {
+                binding.framePadre.children.forEach {
 
                     if (it.tag == "containerInfo") {
 
@@ -259,7 +248,7 @@ class MainActivity : AppCompatActivity() {
 
                 if (s.toString().isNotEmpty()) {
 
-                    framePadre.children.forEach {
+                    binding.framePadre.children.forEach {
 
                         if (it.tag == "containerInfo") {
 
@@ -306,6 +295,26 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        with(window) {
+
+            requestFeature(Window.FEATURE_CONTENT_TRANSITIONS)
+
+            enterTransition = Fade()
+
+            exitTransition = Fade()
+
+            enterTransition.duration = 1000
+
+        }
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+    }
+
     suspend fun addLugaresToMap(lugares: List<Lugares>, imgMapa: ImageView) {
 
         withContext(Dispatchers.Main) {
@@ -331,7 +340,7 @@ class MainActivity : AppCompatActivity() {
 
                         withContext(Dispatchers.Main) {
 
-                            framePadre.addView(container)
+                            binding.framePadre.addView(container)
                             container.addView(iconoLugar)
                             container.addView(textoLugar)
 
@@ -396,7 +405,7 @@ class MainActivity : AppCompatActivity() {
 
                             container.setOnClickListener {
 
-                                val dialogInfo = InfoDialog(lugar)
+                                val dialogInfo = InformationDialog(lugar)
                                 dialogInfo.show(supportFragmentManager, "InfoDialog")
 
                             }

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/rootContainer"
     tools:context=".MainActivity">
 
     <ImageView
@@ -12,8 +13,10 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:focusableInTouchMode="true"
+        app:srcCompat="@drawable/fondo123"
         android:focusable="true"
-        android:clickable="true">
+        android:clickable="true"
+        android:contentDescription="Mapa">
 
     </ImageView>
 
@@ -132,10 +135,9 @@
 
             <ImageView
                 android:id="@+id/imgMapa"
-                android:layout_width="3316px"
-                android:layout_height="3242px"
-                android:src="@drawable/mapa"
-                android:tag="mapaPrincipal">
+                android:layout_width="2653px"
+                android:layout_height="2594px"
+                android:src="@drawable/mapa">
 
             </ImageView>
 
@@ -144,6 +146,7 @@
     </com.otaliastudios.zoom.ZoomLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/containerTabs"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintStart_toStartOf="parent"

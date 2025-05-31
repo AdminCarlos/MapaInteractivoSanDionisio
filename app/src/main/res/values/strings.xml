@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Mapa Biocultural Interactivo San Dionisio</string>
+    <string name="descripcion">
+
+        El Mapa de Recursos Bioculturales del Municipio de San Dionisio, destaca a través de su iconografía, la riqueza biocultural del municipio, ordenado a partir de sus corredores, subcorredores y nodos bioculturales.
+
+        El Mapa en su versión interactiva pretende ser un recurso educativo, lúdico, cultural y turístico que revaloriza y proyecta las riquezas bioculturales de nuestro municipio.
+
+        Al interactuar con el Mapa, recorres y conoces más sobre el paisaje biocultural por el cual está conformado nuestro Municipio, La Gran Familia de San Dionisio: sus sitios naturales, oficios y saberes ancestrales y tradicionales, el patrimonio cultural y construido, su producción, leyendas y memoria oral.
+
+        La identificación de los principales elementos de la identidad y paisaje biocultural del municipio de San Dionisio, ha sido desarrollado a partir de un proceso participativo que pone en valor y dignifica los saberes ancestrales de las comunidades y su visión del territorio.  Se agradece a toda la población de las comunidades y actores locales que participaron en este proceso
+
+        Conoce San Dionisio, Somos Una Gran Familia.</string>
+    <string name="ir_al_mapa">Ir al mapa</string>
 </resources>

@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200.57 195.78" style="enable-background:new 0 0 200.57 195.78;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#XMLID_00000116230527101118801180000005730519734693711233_);}
+	.st1{fill:#00804B;}
+	.st2{fill:#00A37D;}
+	.st3{fill:#AEDDEC;}
+	.st4{fill:#06A752;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:2;}
+	.st6{fill:url(#XMLID_00000173123645204795638280000015673978688610256573_);stroke:#FFFFFF;stroke-width:4;}
+	.st7{opacity:0.65;fill:none;stroke:#FFFFFF;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#FFFFFF;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st9{opacity:0.75;}
+	.st10{display:none;opacity:0.65;}
+	.st11{fill:#FFFFFF;}
+	.st12{display:none;}
+	.st13{display:inline;}
+	.st14{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st15{display:none;fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st16{fill:#CBBBA0;}
+	.st17{fill:url(#XMLID_00000036971689124188739000000011829925455154449030_);}
+	.st18{fill:none;}
+	.st19{fill:#FFED00;}
+	.st20{fill:#3AAA35;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st21{fill:#E30613;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st22{fill:#2D2E83;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st23{fill:#FFED00;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st24{fill:#009851;}
+	.st25{fill:#A1C251;}
+	.st26{fill:#B79571;}
+	.st27{fill:#A17E56;}
+	.st28{fill:#7B5729;}
+	.st29{fill:#8E6A3D;}
+	.st30{fill:url(#XMLID_00000067209783436943534440000008755593227638999982_);}
+	.st31{fill:none;stroke:#FFFFFF;}
+	.st32{fill:none;stroke:#FFFFFF;stroke-width:0.25;}
+	.st33{fill:none;stroke:#FFFFFF;stroke-width:0.5;}
+	.st34{fill:none;stroke:#FFFFFF;stroke-width:0.75;}
+	.st35{fill:url(#XMLID_00000088840942476563871400000000989880894845106620_);stroke:#FFFFFF;}
+	.st36{fill:#AB9E93;stroke:#FFFFFF;}
+	.st37{fill:url(#XMLID_00000174594598185672816510000012674477564667140287_);stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st38{fill:#1D71B8;}
+	.st39{fill:url(#XMLID_00000031171542319811490780000017191793883051800989_);stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st40{fill:#FCE265;}
+	.st41{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st42{display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st43{fill:none;stroke:#010202;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st44{opacity:0.6;fill:url(#XMLID_00000045591136093917064260000011808425142449699479_);}
+	.st45{opacity:0.38;fill:url(#XMLID_00000111161134747659904310000011487907687751522211_);}
+	.st46{opacity:0.38;fill:url(#XMLID_00000101808752252895012720000002055202703790416800_);}
+	.st47{opacity:0.38;fill:url(#XMLID_00000170989984135587140990000008944489675718516898_);}
+	.st48{opacity:0.38;fill:url(#XMLID_00000135653255008412872120000010387806220494664584_);}
+	.st49{opacity:0.38;fill:url(#XMLID_00000045587480064423737850000001358641837305077147_);}
+	.st50{opacity:0.38;fill:url(#XMLID_00000054258815363120860740000006581403187786071176_);}
+	.st51{opacity:0.6;fill:url(#XMLID_00000145026841935476739960000000876668023057289370_);}
+	.st52{opacity:0.38;fill:url(#XMLID_00000132782917120315297800000017505107310270217100_);}
+	.st53{opacity:0.38;fill:url(#XMLID_00000119118785141388398850000017231461704326352298_);}
+	.st54{opacity:0.6;fill:url(#XMLID_00000041269995492703148720000012548510495660706187_);}
+	.st55{opacity:0.6;fill:url(#XMLID_00000160883100982460160410000005306926115519071417_);}
+	.st56{opacity:0.6;}
+	.st57{fill:url(#XMLID_00000042725101190049003690000011660452224331712428_);}
+	.st58{fill:url(#XMLID_00000076573840740868826420000017566684558583370939_);}
+	.st59{opacity:0.6;fill:url(#XMLID_00000087391432872297976440000006772795642343793045_);}
+	.st60{opacity:0.38;fill:url(#XMLID_00000152956080053072794220000007844084057466337421_);}
+	.st61{opacity:0.38;fill:url(#XMLID_00000017504201722916229700000012822309940048308100_);}
+	.st62{opacity:0.55;fill:url(#XMLID_00000134250529338116635110000015957755198396821412_);}
+	.st63{opacity:0.56;fill:url(#XMLID_00000036230698726282461310000009468558386094382240_);}
+	.st64{opacity:0.72;fill:url(#XMLID_00000171696341787606260920000014240882455990417808_);}
+	.st65{opacity:0.69;fill:url(#XMLID_00000079454217220392471910000016749486380178159251_);}
+	.st66{opacity:0.38;fill:url(#XMLID_00000057861990343150329730000004458001881774569389_);}
+	.st67{opacity:0.38;fill:url(#XMLID_00000142887261257454648280000007654874508881476488_);}
+	.st68{opacity:0.64;fill:url(#XMLID_00000155830291092270823690000000235317026743326358_);}
+	.st69{opacity:0.38;fill:url(#XMLID_00000020390684874110371010000014021998937546844304_);}
+	.st70{opacity:0.38;}
+	.st71{fill:url(#XMLID_00000044160012849157841340000003378186933975085977_);}
+	.st72{opacity:0.56;fill:url(#XMLID_00000024713298477314191290000002528946814031181955_);}
+	.st73{opacity:0.72;}
+	.st74{fill:url(#XMLID_00000003079384734278684510000005414809526080252085_);}
+	.st75{fill:url(#XMLID_00000119099118736163475790000013480030475176268713_);}
+	.st76{fill:url(#XMLID_00000078738262515366928010000017175818295462362045_);}
+	.st77{opacity:0.56;fill:url(#XMLID_00000060749899301521704830000009844605981353576072_);}
+	.st78{opacity:0.38;fill:url(#XMLID_00000178167301823934850760000007675037987787580834_);}
+	.st79{opacity:0.38;fill:url(#XMLID_00000073001370126589412680000009293714653586002577_);}
+	.st80{fill:#CCC76E;}
+	.st81{opacity:0.55;fill:url(#XMLID_00000025435816088334643960000003717684686035060373_);}
+	.st82{opacity:0.55;fill:url(#XMLID_00000013897743977282465040000000074247815140231848_);}
+	.st83{opacity:0.38;fill:url(#XMLID_00000016044492705512527350000007076465848085308563_);}
+	.st84{opacity:0.55;fill:url(#XMLID_00000047022575898774573850000004545925361820692389_);}
+	.st85{opacity:0.72;fill:url(#XMLID_00000021078137147908519250000013941439106616004027_);}
+	.st86{opacity:0.38;fill:url(#XMLID_00000075861052174618136800000017528444250316079779_);}
+	.st87{opacity:0.72;fill:url(#XMLID_00000079484161819205508440000002122257776496393621_);}
+	.st88{opacity:0.38;fill:url(#XMLID_00000150086388652744701640000000854222695686532523_);}
+	.st89{opacity:0.38;fill:url(#XMLID_00000130629546369292852710000003897980105420406155_);}
+	.st90{opacity:0.38;fill:url(#XMLID_00000111886485938518866860000003419849763640250294_);}
+	.st91{opacity:0.38;fill:url(#XMLID_00000043431339313712631210000012258174889334898579_);}
+	.st92{opacity:0.38;fill:url(#XMLID_00000131362972125334040910000007903380443855105928_);}
+	.st93{opacity:0.38;fill:url(#XMLID_00000019658131624110108010000014045124912548633742_);}
+	.st94{opacity:0.38;fill:url(#XMLID_00000149355175181901525280000001998695363611663789_);}
+	.st95{opacity:0.38;fill:url(#XMLID_00000059297619526457115270000003055122357002069173_);}
+	.st96{opacity:0.38;fill:url(#XMLID_00000132789478815761762120000006914578908976680874_);}
+	.st97{opacity:0.72;fill:url(#XMLID_00000026165449954738381230000015514673915234076837_);}
+	.st98{opacity:0.38;fill:url(#XMLID_00000057827435135736897570000009453873582814415011_);}
+	.st99{opacity:0.38;fill:url(#XMLID_00000007397849326948228060000016398399981592142262_);}
+	.st100{opacity:0.38;fill:url(#XMLID_00000181766379784287636690000013331806386826509952_);}
+	.st101{opacity:0.6;fill:url(#XMLID_00000045579368244400744400000000210931080806541971_);}
+	.st102{opacity:0.6;fill:url(#XMLID_00000151516327072250079150000013062079644028615591_);}
+	.st103{opacity:0.6;fill:url(#XMLID_00000038371980761627186960000012329512564060948133_);}
+	.st104{opacity:0.6;fill:url(#XMLID_00000018957026431710003850000016634835071978299013_);}
+	.st105{opacity:0.6;fill:url(#XMLID_00000016792226830194095950000006799068598935010956_);}
+	.st106{opacity:0.6;fill:url(#XMLID_00000012439269894997412430000013475830995596661935_);}
+	.st107{opacity:0.6;fill:url(#XMLID_00000182526739043412090530000008943032955384152245_);}
+	.st108{opacity:0.6;fill:url(#XMLID_00000134954525318469107080000017385629815534406798_);}
+	.st109{opacity:0.6;fill:url(#XMLID_00000127753704369505792340000000906488121255992248_);}
+	.st110{opacity:0.6;fill:url(#XMLID_00000057130904109075493300000004605329585382618517_);}
+	.st111{opacity:0.6;fill:url(#XMLID_00000031186417864310863410000006756766057007814305_);}
+	.st112{opacity:0.38;fill:url(#XMLID_00000021105044729714282020000013395713791015742105_);}
+	.st113{opacity:0.38;fill:url(#XMLID_00000036253479265037287620000015357843704729356971_);}
+	.st114{opacity:0.38;fill:url(#XMLID_00000072999643405618719090000011751569196359327892_);}
+	.st115{opacity:0.38;fill:url(#XMLID_00000117642539572830617940000014077695415385922208_);}
+	.st116{fill:url(#XMLID_00000034067307440015277840000013685831618850648206_);}
+	.st117{opacity:0.38;fill:url(#XMLID_00000097496232303361441110000015114782497817946753_);}
+	.st118{opacity:0.38;fill:url(#XMLID_00000075131612378569841490000010895229459216637344_);}
+	.st119{opacity:0.38;fill:url(#XMLID_00000103987356988490932160000004196291864339614910_);}
+	.st120{opacity:0.38;fill:url(#XMLID_00000066515072403948047390000016704694885534413188_);}
+	.st121{opacity:0.38;fill:url(#XMLID_00000100371379800093774070000018036656771736318349_);}
+	.st122{opacity:0.38;fill:url(#XMLID_00000165195457473987825510000007318289663623912894_);}
+	.st123{opacity:0.38;fill:url(#XMLID_00000178182463755165711120000011569044418952428983_);}
+	.st124{opacity:0.38;fill:url(#XMLID_00000111907139418856624510000017316422080345920433_);}
+	.st125{opacity:0.38;fill:url(#XMLID_00000068674752187184475090000017069738010103137672_);}
+	.st126{opacity:0.38;fill:url(#XMLID_00000057832865398734900280000004414705757711057586_);}
+	.st127{opacity:0.38;fill:url(#XMLID_00000093140007327474955830000004209875309475647917_);}
+	.st128{opacity:0.38;fill:url(#XMLID_00000170266502210870738920000014745464013557608853_);}
+	.st129{opacity:0.38;fill:url(#XMLID_00000124138010061204473810000016070018241041864851_);}
+	.st130{opacity:0.38;fill:url(#XMLID_00000001641077856755577290000001256182465050905733_);}
+	.st131{opacity:0.38;fill:url(#XMLID_00000050621778351624961290000017144858112819987612_);}
+	.st132{opacity:0.38;fill:url(#XMLID_00000020381549309513401220000011667778849811096989_);}
+	.st133{opacity:0.38;fill:url(#XMLID_00000094614125902381336510000000500698178081491097_);}
+	.st134{opacity:0.38;fill:url(#XMLID_00000170264476067876689470000013184261052941164416_);}
+	.st135{opacity:0.38;fill:url(#XMLID_00000124859965009181451620000014374956513738789777_);}
+	.st136{opacity:0.38;fill:url(#XMLID_00000145751554721990043130000011013314239394519486_);}
+	.st137{opacity:0.38;fill:url(#XMLID_00000021092908861554755520000018388388491451260555_);}
+	.st138{opacity:0.38;fill:url(#XMLID_00000111151830818856082180000018235768343087422865_);}
+	.st139{opacity:0.38;fill:url(#XMLID_00000160162542366291398200000016084049013503260046_);}
+	.st140{opacity:0.38;fill:url(#XMLID_00000029034246893299025360000005809463214190174094_);}
+	.st141{opacity:0.38;fill:url(#XMLID_00000170964718158409544480000013151806069741923502_);}
+	.st142{opacity:0.38;fill:url(#XMLID_00000141423465116184048020000013283392786521556101_);}
+	.st143{opacity:0.38;fill:url(#XMLID_00000002357367696765551190000015767929035655397052_);}
+	.st144{opacity:0.38;fill:url(#XMLID_00000165197214536059328190000008864383002078571912_);}
+	.st145{opacity:0.38;fill:url(#XMLID_00000017494833628370445910000009010797615030755736_);}
+	.st146{opacity:0.69;fill:url(#XMLID_00000003102589773277621780000003774294392069241278_);}
+	.st147{opacity:0.69;fill:url(#XMLID_00000164494975688334797330000002945717903179983029_);}
+	.st148{opacity:0.38;fill:url(#XMLID_00000129193525095056238310000003352352035844461460_);}
+	.st149{opacity:0.69;fill:url(#XMLID_00000011747632334071584790000004034589073930319267_);}
+	.st150{opacity:0.38;fill:url(#XMLID_00000019657509571053991560000008358946515174219421_);}
+	.st151{opacity:0.69;fill:url(#XMLID_00000179624747260285942760000003869472149054053258_);}
+	.st152{opacity:0.6;fill:url(#XMLID_00000046308454523356798820000001595780022460700582_);}
+	.st153{opacity:0.6;fill:url(#XMLID_00000170236449715638906010000004345434260153556905_);}
+	.st154{opacity:0.69;}
+	.st155{fill:url(#XMLID_00000181055973425552292320000004963786858248324233_);}
+	.st156{opacity:0.6;fill:url(#XMLID_00000076593467685847003870000008775294502790574985_);}
+	.st157{opacity:0.69;fill:url(#XMLID_00000122717543763543808490000008380134086233302924_);}
+	.st158{opacity:0.6;fill:url(#XMLID_00000073719449743880939990000004110127192862750378_);}
+	.st159{opacity:0.6;fill:url(#XMLID_00000031887204583221144860000007784735073947497883_);}
+	.st160{opacity:0.38;fill:url(#XMLID_00000086655992180390982800000012408242923128543126_);}
+	.st161{opacity:0.6;fill:url(#XMLID_00000062164471570215794700000010792102319271359367_);}
+	.st162{opacity:0.71;}
+	.st163{fill:url(#XMLID_00000008871886261073733190000011096388389360701093_);}
+	.st164{opacity:0.6;fill:url(#XMLID_00000177485940590692083590000012893526639429290403_);}
+	.st165{opacity:0.6;fill:url(#XMLID_00000091003307608928902780000014837911723179145602_);}
+	.st166{opacity:0.6;fill:url(#XMLID_00000107565282227892049510000004542085534647725701_);}
+	.st167{opacity:0.58;fill:url(#XMLID_00000163760982175585435970000012497119233625162658_);}
+	.st168{opacity:0.38;fill:url(#XMLID_00000084491192976592441480000010325175339074568335_);}
+	.st169{opacity:0.6;fill:url(#XMLID_00000009567818383066267330000010609871068348436864_);}
+	.st170{opacity:0.38;fill:url(#XMLID_00000083080643054160337390000006342840934111143079_);}
+	.st171{opacity:0.38;fill:url(#XMLID_00000024702058314954635530000008220064009453472405_);}
+	.st172{opacity:0.38;fill:url(#XMLID_00000008869399582722813760000003024228640899792295_);}
+	.st173{opacity:0.38;fill:url(#XMLID_00000167398028832476088030000017923721019973777852_);}
+	.st174{opacity:0.56;fill:url(#XMLID_00000151530412255829027320000012849594850364763822_);}
+	.st175{opacity:0.38;fill:url(#XMLID_00000075158761508939717730000015695721454565189250_);}
+	.st176{opacity:0.56;fill:url(#XMLID_00000054253377078377051340000009763535817890235013_);}
+	.st177{opacity:0.38;fill:url(#XMLID_00000123421218698949045970000009693337152222749853_);}
+	.st178{opacity:0.38;fill:url(#XMLID_00000016063323364043339080000016359077975963776686_);}
+	.st179{opacity:0.38;fill:url(#XMLID_00000103235819469280174700000011123168114701321860_);}
+	.st180{opacity:0.38;fill:url(#XMLID_00000111897842425818421630000016044032037606262174_);}
+	.st181{fill:url(#XMLID_00000020372678588033120440000003564890360493784472_);}
+	.st182{opacity:0.38;fill:url(#XMLID_00000181793448398565107630000017104059239167831721_);}
+	.st183{opacity:0.38;fill:url(#XMLID_00000137816884676494401230000000506386040774509726_);}
+	.st184{fill:url(#XMLID_00000160150100737665542350000007306908726073895847_);}
+	.st185{opacity:0.38;fill:url(#XMLID_00000011009498973271893410000003837233971650011804_);}
+	.st186{opacity:0.38;fill:url(#XMLID_00000076599448603613869500000013913946694351159999_);}
+	.st187{opacity:0.38;fill:url(#XMLID_00000044143039257741824280000012711504909140161698_);}
+	.st188{opacity:0.38;fill:url(#XMLID_00000024687438468809189680000016966176939895554723_);}
+	.st189{opacity:0.38;fill:url(#XMLID_00000078732199327878395030000015477039113183561388_);}
+	.st190{opacity:0.38;fill:url(#XMLID_00000070096503991225114050000006916361257011696561_);}
+	.st191{opacity:0.38;fill:url(#XMLID_00000111908236956600056260000014445270903544787344_);}
+	.st192{opacity:0.58;fill:url(#XMLID_00000138571544825174696610000007657581461092911544_);}
+	.st193{opacity:0.6;fill:url(#XMLID_00000142153005899116205840000014476502510958564000_);}
+	.st194{opacity:0.38;fill:url(#XMLID_00000030452322656388555410000018104702947589566398_);}
+	.st195{opacity:0.38;fill:url(#XMLID_00000072997687882701087310000003220888303532694959_);}
+	.st196{opacity:0.38;fill:url(#XMLID_00000021839767853329501320000001106484226939783555_);}
+	.st197{opacity:0.38;fill:url(#XMLID_00000167383079934293983330000010786517842308210588_);}
+	.st198{opacity:0.38;fill:url(#XMLID_00000048491294782579227120000013841706763304211617_);}
+	.st199{opacity:0.69;fill:url(#XMLID_00000176743036505823202130000002662791988868770997_);}
+	.st200{opacity:0.6;fill:url(#XMLID_00000022534662582303142840000014632890134055904143_);}
+	.st201{opacity:0.38;fill:url(#XMLID_00000062177035037933319240000005053362647653794696_);}
+	.st202{opacity:0.38;fill:url(#XMLID_00000083802383664696523970000005135153013915898032_);}
+	.st203{opacity:0.38;fill:url(#XMLID_00000042733531605440725000000012957716211458918822_);}
+	.st204{opacity:0.38;fill:url(#XMLID_00000170957604785108398870000018362395664089125270_);}
+	.st205{opacity:0.38;fill:url(#XMLID_00000008148690009079690540000004363554142915336885_);}
+	.st206{opacity:0.38;fill:url(#XMLID_00000139279584233828390050000003525113772693905557_);}
+	.st207{opacity:0.38;fill:url(#XMLID_00000178924569839008721360000000271752110300194740_);}
+	.st208{opacity:0.38;fill:url(#XMLID_00000095301715622974505280000008227901888783287980_);}
+	.st209{opacity:0.38;fill:url(#XMLID_00000023970596270996029280000010280571460071289006_);}
+	.st210{opacity:0.38;fill:url(#XMLID_00000176741560053425218630000004025468777165498295_);}
+	.st211{opacity:0.38;fill:url(#XMLID_00000018937836133291423050000009560060777309635756_);}
+	.st212{opacity:0.38;fill:url(#XMLID_00000034060427729144901630000005986297093908182146_);}
+	.st213{opacity:0.38;fill:url(#XMLID_00000014592419209011426440000000739321995335072428_);}
+	.st214{opacity:0.69;fill:url(#XMLID_00000125576044554716610200000001084802887493249427_);}
+	.st215{opacity:0.38;fill:url(#XMLID_00000110444237915276824220000008440005381723468479_);}
+	.st216{opacity:0.38;fill:url(#XMLID_00000014615110877107666160000006882151264003388291_);}
+	.st217{opacity:0.38;fill:url(#XMLID_00000121970932194516855290000015637131237362686386_);}
+	.st218{opacity:0.38;fill:url(#XMLID_00000062152653974303593750000004412949408324767902_);}
+	.st219{opacity:0.38;fill:url(#XMLID_00000057133338033307180330000014890440975220653721_);}
+	.st220{opacity:0.6;fill:url(#XMLID_00000162348922748143462200000009423341756238493316_);}
+	.st221{opacity:0.38;fill:url(#XMLID_00000023993660934940666710000002332474515710737058_);}
+	.st222{opacity:0.38;fill:url(#XMLID_00000129915973160695902230000003987130651392747176_);}
+	.st223{opacity:0.38;fill:url(#XMLID_00000110448010488805917740000005862349972195285641_);}
+	
+		.st224{fill:none;stroke:#E30613;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:20,10;}
+	
+		.st225{opacity:0.19;fill:#95C11F;stroke:#7D4E24;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st226{opacity:0.27;fill:#3AAA35;stroke:#7D4E24;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st227{opacity:0.19;fill:#95C11F;stroke:#7D4E24;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st228{fill:none;stroke:#7D4E24;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st229{opacity:0.27;fill:#95C11F;stroke:#7D4E24;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st230{fill:#F9B316;stroke:#7D4E24;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st231{fill:none;stroke:#2D2E83;stroke-width:7;stroke-miterlimit:10;}
+	.st232{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st233{fill:none;stroke:#1D71B8;stroke-width:3;stroke-miterlimit:10;}
+	.st234{fill:#3AAA35;stroke:#7D4E24;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st235{fill:#E30613;}
+	.st236{fill:#3AAA35;stroke:#7D4E24;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st237{fill:none;stroke:#E6332A;stroke-width:6;stroke-miterlimit:10;}
+	.st238{fill:none;stroke:#7D4E24;stroke-width:4;stroke-miterlimit:10;}
+	.st239{fill:none;stroke:#7D4E24;stroke-width:5;stroke-miterlimit:10;}
+	.st240{fill:none;stroke:#FFED00;stroke-width:5;stroke-miterlimit:10;}
+	.st241{fill:none;stroke:#575756;stroke-miterlimit:10;stroke-dasharray:8,2;}
+	.st242{fill:none;stroke:#575756;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:8,2;}
+	.st243{fill:none;stroke:#BE1622;stroke-width:9;stroke-miterlimit:10;}
+	.st244{fill:none;stroke:#FFFFFF;stroke-width:28;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:20,20;}
+	.st245{opacity:0.86;}
+	.st246{opacity:0.93;fill:#FFFFFF;}
+	.st247{opacity:0.49;}
+	.st248{fill:none;stroke:#1D71B8;stroke-miterlimit:10;}
+	.st249{fill:none;stroke:#2D2E83;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:10,2,2,2;}
+	.st250{fill:none;stroke:#2D2E83;stroke-width:4;stroke-miterlimit:10;}
+	.st251{fill:#2D2E83;}
+	.st252{fill:none;stroke:#2D2E83;stroke-width:8;stroke-miterlimit:10;}
+	.st253{fill:#3F63AC;}
+	.st254{fill:#F9B233;}
+	.st255{fill:none;stroke:#FFFFFF;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st256{fill:#544842;}
+	.st257{fill:#010202;}
+	.st258{fill:url(#XMLID_00000154421581723267473960000009005640592687279020_);}
+	.st259{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st260{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#FFFFFF;stroke-miterlimit:2.4142;}
+	
+		.st261{fill-rule:evenodd;clip-rule:evenodd;fill:#27348B;stroke:#FFFFFF;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st262{fill:#27348B;}
+	.st263{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st264{fill:#683C11;}
+	.st265{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:2.4142;}
+	
+		.st266{fill-rule:evenodd;clip-rule:evenodd;fill:#27348B;stroke:#FFFFFF;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st267{fill:#2D2E83;stroke:#FFFFFF;stroke-width:0.75;stroke-miterlimit:10;}
+	.st268{fill:none;stroke:#FFFFFF;stroke-width:0.5;stroke-miterlimit:10;}
+	.st269{fill:#B2B2B2;stroke:#FFFFFF;stroke-width:0.5;stroke-miterlimit:10;}
+	.st270{fill:#FFFFFF;stroke:#B2B2B2;stroke-width:0.5;stroke-miterlimit:10;}
+	.st271{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.5;stroke-miterlimit:10;}
+	.st272{display:inline;fill:#FFFFFF;}
+	.st273{display:inline;fill:none;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st274{display:inline;fill:#746458;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st275{fill:#C69C6D;}
+	.st276{fill:#E6332A;}
+	.st277{fill:none;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st278{display:inline;fill:#C69C6D;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st279{display:inline;fill:#575756;}
+	.st280{display:inline;fill:#010202;}
+	.st281{display:inline;fill:none;stroke:#010202;stroke-width:0.25;}
+	.st282{fill:#343434;}
+	.st283{fill:#936037;}
+	.st284{fill:none;stroke:#7D4E24;stroke-width:0.1;}
+	.st285{fill:none;stroke:#000000;stroke-width:0.2;}
+	.st286{fill:none;stroke:#010202;stroke-width:0.25;}
+	.st287{fill:#723F13;}
+	.st288{fill:#F9B03D;}
+	.st289{fill:#603914;}
+	.st290{fill:#412413;}
+	.st291{fill:#8C633A;}
+	.st292{fill:#F9EA32;}
+	.st293{fill:#EB5B28;}
+	.st294{fill:#8EC044;}
+	.st295{fill:#746458;}
+	.st296{fill:#C1292E;}
+	.st297{fill:#30358C;}
+	.st298{fill:none;stroke:#412413;stroke-width:0.25;}
+	.st299{fill:none;stroke:#010202;stroke-width:0.1;}
+	.st300{fill:#010202;stroke:#010202;stroke-width:0.1;}
+	.st301{fill:#A67D52;stroke:#010202;stroke-width:0.25;}
+	.st302{fill:#010202;stroke:#010202;stroke-width:0.5;}
+	.st303{fill:#412413;stroke:#010202;stroke-width:0.1;}
+	.st304{fill:#634E42;}
+	.st305{fill:#B2B2B2;}
+	.st306{fill:#FFFFFF;stroke:#B2B2B2;stroke-miterlimit:10;}
+	.st307{fill:#746458;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st308{fill:#E8AAC8;}
+	.st309{fill:#C69C6D;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st310{fill:#343434;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st311{fill:#412413;stroke:#010202;stroke-width:0.25;}
+	.st312{fill:#343434;stroke:#010202;stroke-width:0.25;}
+	.st313{fill:none;stroke:#FFFFFF;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st314{fill:none;stroke:#010202;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;}
+	.st315{fill:none;stroke:#010202;stroke-linecap:round;stroke-linejoin:round;}
+	.st316{fill:#A67D52;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st317{fill:#412413;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st318{fill:#4E4E4E;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st319{fill:#A67D52;stroke:#010202;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st320{fill:#A67D52;}
+	.st321{fill:#4E4E4E;}
+	.st322{fill:#BE1622;}
+	.st323{fill:none;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st324{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st325{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st326{fill:#E6332A;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st327{fill:#FFFFFF;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st328{fill:#634E42;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st329{fill:#FFED00;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st330{fill:#CBBBA0;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st331{fill:#683C11;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st332{fill:#FFEAB7;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st333{fill:#E30613;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st334{fill:#662483;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st335{stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st336{fill:#A3195B;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st337{fill:#F9B233;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st338{fill:#CA9E67;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st339{fill:#30358C;stroke:#FFFFFF;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st340{fill:#D4175B;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st341{fill:#2EABE2;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st342{fill:#C7B29A;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st343{fill:#010202;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st344{fill:#998675;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st345{fill:#603914;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st346{fill:#676767;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st347{fill:#9A9999;stroke:#010202;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;}
+	.st348{fill:none;stroke:#010202;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;}
+	.st349{fill:none;stroke:#010202;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st350{fill:#D4175B;}
+	.st351{fill:#2EABE2;}
+	.st352{fill:#C7B29A;}
+	.st353{fill:#676767;}
+	.st354{fill:#009245;stroke:#010202;stroke-width:0.25;}
+	.st355{fill:#E6E6E6;}
+	.st356{fill:#CDCCCC;}
+	.st357{fill:#009245;}
+	.st358{fill:none;stroke:#010202;}
+	.st359{fill:none;stroke:#010202;stroke-width:0.5;}
+	.st360{fill:none;stroke:#010202;stroke-width:0.75;}
+	.st361{fill:#D7DB2D;}
+	.st362{fill:none;stroke:#010202;stroke-width:4;}
+	.st363{fill:#343434;stroke:#010202;stroke-width:0.5;}
+	.st364{fill:#C69C6D;stroke:#010202;stroke-width:0.25;}
+	.st365{fill:#0D71B9;}
+	.st366{fill:#754D24;stroke:#010202;stroke-width:0.25;}
+	.st367{fill:#343434;stroke:#343434;stroke-width:0.25;}
+	.st368{fill:#010202;stroke:#010202;stroke-width:0.25;}
+	.st369{fill:#F3E600;}
+	.st370{fill:#E7267A;}
+	.st371{fill:#DF91BE;}
+	.st372{fill:#E2E09A;}
+	.st373{fill:#E089B8;}
+	.st374{fill:#48AE4D;}
+	.st375{fill:#28285B;}
+	.st376{fill:#9E1460;}
+	.st377{fill:#64328A;}
+	.st378{fill:#EC67A3;}
+	.st379{fill:#F39323;}
+	.st380{fill:#F4E769;}
+	.st381{fill:none;stroke:#010202;stroke-width:0.05;}
+	.st382{fill:none;stroke:#ED6DA6;stroke-width:0.45;}
+	.st383{fill:none;stroke:#28285B;stroke-width:0.45;}
+	.st384{fill:none;stroke:#009245;stroke-width:0.45;}
+	.st385{fill:none;stroke:#F3E600;stroke-width:0.45;}
+	.st386{fill:none;stroke:#64328A;stroke-width:0.45;}
+	.st387{fill:none;stroke:#48AE4D;stroke-width:0.45;}
+	.st388{fill:none;stroke:#EB5B28;stroke-width:0.45;}
+	.st389{fill:none;stroke:#9E1460;stroke-width:0.45;}
+	.st390{fill:none;stroke:#E7267A;stroke-width:0.45;}
+	.st391{fill:none;stroke:#30358C;stroke-width:0.45;}
+	.st392{fill:#603914;stroke:#010202;stroke-width:0.25;}
+	.st393{fill:#8C633A;stroke:#010202;stroke-width:0.25;}
+	.st394{fill:none;stroke:#ED6DA6;stroke-width:2;}
+	.st395{fill:none;stroke:#28285B;stroke-width:2;}
+	.st396{fill:none;stroke:#009245;stroke-width:2;}
+	.st397{fill:none;stroke:#F3E600;stroke-width:2;}
+	.st398{fill:none;stroke:#64328A;stroke-width:2;}
+	.st399{fill:none;stroke:#48AE4D;stroke-width:2;}
+	.st400{fill:none;stroke:#EB5B28;stroke-width:2;}
+	.st401{fill:none;stroke:#9E1460;stroke-width:2;}
+	.st402{fill:none;stroke:#E7267A;stroke-width:2;}
+	.st403{fill:none;stroke:#30358C;stroke-width:2;}
+	.st404{fill:#B17F4A;}
+	.st405{fill:none;stroke:#010202;stroke-width:6;}
+	.st406{fill:none;stroke:#010202;stroke-width:2;}
+	.st407{fill:#C7B29A;stroke:#010202;stroke-width:0.25;}
+	.st408{fill:#676767;stroke:#010202;stroke-width:0.25;}
+	.st409{fill:#998675;stroke:#010202;stroke-width:0.25;}
+	.st410{fill:#603914;stroke:#603914;stroke-width:0.25;}
+	.st411{fill:none;stroke:#603914;stroke-width:0.25;}
+	.st412{fill:#4E4E4E;stroke:#010202;stroke-width:0.25;}
+	.st413{fill:#998675;}
+	.st414{fill:#8E3089;stroke:#010202;stroke-width:0.25;}
+	.st415{fill:#C69C6D;stroke:#010202;stroke-width:0.2;}
+	.st416{fill:#C69C6D;stroke:#010202;stroke-width:0.5;}
+	.st417{fill:#DEDE74;stroke:#010202;stroke-width:0.25;}
+	.st418{fill:#8E3089;}
+	.st419{fill:#754D24;}
+	.st420{fill:#DEDE74;}
+	.st421{fill:#C7B29A;stroke:#010202;stroke-width:0.15;}
+	.st422{fill:none;stroke:#010202;stroke-width:0.15;}
+	.st423{fill:none;stroke:#010202;stroke-width:0.2;}
+	.st424{fill:#F9EA32;stroke:#010202;stroke-width:0.1;}
+	.st425{fill:#08AA9E;stroke:#010202;stroke-width:0.2;}
+	.st426{fill:#2EABE2;stroke:#010202;stroke-width:0.25;}
+	.st427{fill:none;stroke:#010202;stroke-width:3;}
+	.st428{fill:#08AA9E;}
+	.st429{fill:#CA9E67;}
+	.st430{fill:#432918;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st431{fill:#F3E600;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st432{fill:#CA9E67;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st433{fill:#432918;}
+	.st434{fill:none;stroke:#010202;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st435{fill:#727FBD;}
+	.st436{fill:#544842;stroke:#010202;stroke-width:0.5;}
+	.st437{fill:#64328A;stroke:#010202;stroke-width:0.25;}
+	.st438{fill:#544842;stroke:#010202;stroke-width:0.25;}
+	.st439{fill:#544842;stroke:#010202;}
+	.st440{fill:none;stroke:#010202;stroke-width:0.08;}
+	.st441{fill:#EB5B28;stroke:#010202;stroke-width:0.25;}
+	.st442{fill:#010202;stroke:#010202;stroke-width:0.25;stroke-miterlimit:10;}
+	.st443{fill:#1D71B8;stroke:#010202;stroke-width:0.25;}
+	.st444{fill:#683C11;stroke:#010202;stroke-width:0.25;}
+	.st445{fill:#DADADA;stroke:#010202;stroke-width:0.25;}
+	.st446{fill:#DADADA;}
+	.st447{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;}
+	.st448{opacity:0.9;}
+	.st449{fill:#6B4125;}
+	.st450{fill:none;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st451{fill:#432918;stroke:#010202;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st452{fill:#432918;stroke:#432918;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st453{fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st454{fill:#CBBBA0;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st455{fill:#FFED00;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st456{fill:#F39200;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st457{stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st458{fill:#6B348B;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st459{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st460{fill:#F39200;}
+	.st461{fill:#6B348B;}
+	.st462{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.25;stroke-linecap:square;stroke-miterlimit:10;}
+	.st463{fill:#FFFFFF;stroke:#000000;stroke-width:0.75;stroke-linecap:square;stroke-miterlimit:10;}
+	.st464{fill:#F9B233;stroke:#F9B233;stroke-width:0.25;stroke-linecap:square;stroke-miterlimit:10;}
+	.st465{fill:#E6007E;stroke:#E6007E;stroke-width:0.25;stroke-linecap:square;stroke-miterlimit:10;}
+	.st466{fill:#36A9E1;stroke:#36A9E1;stroke-width:0.25;stroke-linecap:square;stroke-miterlimit:10;}
+	.st467{fill:#E94E1B;stroke:#E94E1B;stroke-width:0.25;stroke-linecap:square;stroke-miterlimit:10;}
+	.st468{fill:#FCEA10;stroke:#FCEA10;stroke-width:0.25;stroke-linecap:square;stroke-miterlimit:10;}
+	.st469{fill:#FCEA10;}
+	.st470{fill:#006633;}
+	.st471{fill:#008D36;}
+	.st472{fill:none;stroke:#FFFFFF;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st473{fill-rule:evenodd;clip-rule:evenodd;fill:#2D2E83;}
+	.st474{fill:none;stroke:#BE1622;stroke-width:6;stroke-miterlimit:10;}
+	.st475{fill:none;stroke:#FFFFFF;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	
+		.st476{opacity:0.35;fill:#3AAA35;stroke:#432918;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st477{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st478{fill:none;stroke:#683C11;stroke-width:5;stroke-miterlimit:10;}
+	.st479{fill:none;stroke:#575756;stroke-width:4;stroke-miterlimit:10;}
+	.st480{fill:none;stroke:#2D2E83;stroke-width:5;stroke-miterlimit:10;}
+	.st481{fill:none;stroke:#2D2E83;stroke-width:3;stroke-miterlimit:10;}
+	.st482{fill:#9D9D9C;}
+	.st483{fill:#D8ABD0;}
+	.st484{fill:#E3DF52;}
+	.st485{fill:#D3D1C1;}
+	.st486{fill:#0079C0;}
+	.st487{fill:#95C11F;}
+	.st488{fill:none;stroke:#432918;stroke-miterlimit:10;}
+	.st489{fill:none;stroke:#2D2E83;stroke-width:10;stroke-miterlimit:10;stroke-dasharray:10,2,2,2;}
+	.st490{fill:#F9B316;stroke:#7D4E24;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st491{fill:none;stroke:#BE1622;stroke-width:15;stroke-miterlimit:10;}
+	.st492{opacity:0.35;fill:none;stroke:#432918;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st493{fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:10;}
+	.st494{fill:none;stroke:#683C11;stroke-width:15;stroke-miterlimit:10;}
+	.st495{fill:none;stroke:#575756;stroke-width:15;stroke-miterlimit:10;}
+	.st496{fill:none;stroke:#2D2E83;stroke-width:16;stroke-miterlimit:10;}
+	.st497{fill:none;stroke:#2D2E83;stroke-width:6;stroke-miterlimit:10;}
+	.st498{fill:none;stroke:#1D71B8;stroke-width:10;stroke-miterlimit:10;}
+	.st499{fill:#575756;}
+	.st500{fill:none;stroke:#7D4E24;stroke-width:2;}
+	.st501{fill:#009245;stroke:#010202;stroke-width:0.1;}
+	.st502{fill:#FFFFFF;stroke:#000000;stroke-width:0.5;stroke-linecap:square;stroke-miterlimit:10;}
+	.st503{fill:#E52629;}
+	.st504{fill:#9A9999;}
+	.st505{fill:#FFFFFF;stroke:#FFFFFF;}
+	.st506{fill:#F9B03D;stroke:#010202;stroke-width:0.25;}
+	.st507{fill:none;stroke:#010202;stroke-width:0.15;stroke-linecap:round;stroke-linejoin:round;}
+	.st508{fill:#010202;stroke:#010202;stroke-width:0.15;}
+	.st509{fill:#F9B03D;stroke:#010202;stroke-width:0.15;}
+	.st510{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.15;}
+	.st511{fill:#00A6E4;}
+	.st512{fill:none;stroke:#000000;stroke-width:0.5;}
+	.st513{fill:#676B6D;stroke:#000000;stroke-width:0.25;}
+	.st514{fill:#FFED00;stroke:#000000;stroke-width:0.25;}
+	.st515{fill:none;stroke:#000000;stroke-width:0.25;}
+	.st516{fill:#F0A334;stroke:#000000;stroke-width:0.25;}
+	.st517{fill:#D2C2B3;stroke:#000000;stroke-width:0.25;}
+	.st518{fill:#D2C2B3;}
+	.st519{fill:#3D509A;}
+	.st520{fill:#B79571;stroke:#000000;stroke-width:0.25;}
+	.st521{fill:#AB9E93;stroke:#000000;stroke-width:0.25;}
+	.st522{fill:#FFE900;stroke:#000000;stroke-width:0.5;}
+	.st523{fill:#5F3E1B;}
+	.st524{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.25;}
+	.st525{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st526{fill:#F6F6F6;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st527{fill:none;stroke:#412413;}
+	.st528{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-miterlimit:2.4142;}
+	
+		.st529{fill-rule:evenodd;clip-rule:evenodd;fill:#27348B;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st530{fill:none;stroke:#412413;stroke-width:7;}
+	.st531{fill:none;stroke:#000000;stroke-width:0.1;}
+	.st532{fill:#00804B;stroke:#000000;stroke-width:0.1;}
+	.st533{fill:#D0B08B;}
+	.st534{fill:#D13269;}
+	.st535{fill:#FFE900;}
+	.st536{fill:#EB96B8;}
+	.st537{fill:#4C5151;}
+	.st538{fill:none;stroke:#000000;stroke-width:0.05;}
+	.st539{fill:#94989E;stroke:#000000;}
+	.st540{fill:#7C4D94;stroke:#000000;}
+	.st541{fill:#E22C7F;stroke:#000000;}
+	.st542{fill:#D2C2B3;stroke:#000000;}
+	.st543{fill:none;stroke:#000000;}
+	.st544{fill:#F0A334;}
+	.st545{fill:#FFED00;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st546{fill:#F9B233;stroke:#F9B233;stroke-miterlimit:10;}
+	.st547{fill:#E94E1B;}
+	.st548{fill:#662483;}
+	.st549{fill:#00A19A;}
+	.st550{fill:#DEDC00;}
+	.st551{fill:#D60B52;}
+	.st552{fill:#29235C;}
+	.st553{fill:#E71D73;}
+	.st554{fill:none;stroke:#683C11;}
+	.st555{fill:none;stroke:#936037;stroke-width:3;}
+	.st556{fill:url(#XMLID_00000030487080799230403480000015701014403806733738_);stroke:#FFFFFF;}
+	.st557{fill:#E8501D;}
+	.st558{fill:#7D4E24;}
+	.st559{fill:#7B6A58;}
+	.st560{fill:none;stroke:#000000;stroke-width:0.1;stroke-miterlimit:10;}
+	.st561{fill:#E83A47;}
+	.st562{fill:#F7BB56;}
+	.st563{fill:#FFE425;}
+	.st564{fill:none;stroke:#010202;stroke-width:0.1;stroke-miterlimit:10;}
+	.st565{fill:#C1292E;stroke:#010202;stroke-width:0.1;stroke-miterlimit:10;}
+	.st566{fill:#8EC044;stroke:#010202;stroke-width:0.1;stroke-miterlimit:10;}
+	.st567{fill:#CA9E67;stroke:#000000;stroke-width:0.25;}
+	.st568{fill:none;stroke:#CBBBA0;}
+	.st569{fill:#A17E56;stroke:#000000;stroke-width:0.25;}
+	.st570{fill:#AB9E93;}
+	.st571{fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st572{fill:#7E8285;stroke:#000000;stroke-width:0.5;}
+	.st573{fill:#7B5729;stroke:#000000;stroke-width:0.25;}
+	.st574{fill:none;stroke:#00804B;stroke-width:0.5;}
+	.st575{fill:#009851;stroke:#000000;stroke-width:0.25;}
+	.st576{fill:#00804B;stroke:#000000;stroke-width:0.25;}
+	.st577{fill:#A48A7B;}
+	.st578{fill:#878787;}
+	.st579{fill:#0082C5;}
+	.st580{fill:#06A752;stroke:#000000;stroke-width:0.25;}
+	.st581{fill:#0082C5;stroke:#000000;stroke-width:0.5;}
+	.st582{stroke:#000000;stroke-width:0.5;}
+	.st583{fill:#7B5729;stroke:#000000;stroke-width:0.5;}
+	.st584{fill:#EFE670;stroke:#000000;stroke-width:0.25;}
+	.st585{fill:#F39323;stroke:#010202;stroke-width:0.1;stroke-miterlimit:10;}
+	.st586{fill:#F9EA32;stroke:#010202;stroke-width:0.1;stroke-miterlimit:10;}
+	.st587{fill:#CAB9A7;}
+	.st588{fill:#8EC044;stroke:#010202;stroke-width:0.25;stroke-miterlimit:10;}
+	.st589{fill:#C1292E;stroke:#010202;stroke-width:0.25;stroke-miterlimit:10;}
+	.st590{fill:none;stroke:#010202;stroke-width:0.25;stroke-miterlimit:10;}
+	.st591{fill:none;stroke:#CBBBA0;stroke-width:0.25;}
+	.st592{fill:none;stroke:#FFFFFF;stroke-width:13;stroke-miterlimit:10;}
+	.st593{opacity:0.4;}
+	.st594{opacity:0.75;fill:#FFFFFF;}
+	.st595{opacity:0.8;fill:#FFFFFF;}
+	.st596{opacity:0.84;fill:#FFFFFF;}
+	.st597{opacity:0.29;fill:#FFFFFF;}
+	.st598{opacity:0.24;fill:#FFFFFF;}
+	.st599{opacity:0.21;fill:#FFFFFF;}
+	.st600{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}
+	.st601{fill:#00804B;stroke:#FFFFFF;stroke-width:0.25;}
+	.st602{fill:#F39323;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st603{fill:#F9EA32;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st604{fill:#3AAA35;}
+	.st605{fill:url(#XMLID_00000145059966533506637670000002813150974099920818_);}
+	.st606{fill:#F39323;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+	.st607{fill:#F9EA32;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+	.st608{fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+	.st609{fill:url(#XMLID_00000123398672105559912160000006546907744083081125_);}
+	.st610{fill:#DD363A;}
+	.st611{fill:#A44390;}
+	.st612{fill:#4C5151;stroke:#000000;stroke-width:0.5;}
+	.st613{fill:#D2C2B3;stroke:#000000;stroke-width:0.5;}
+	.st614{fill:#CFB99E;stroke:#13110C;stroke-width:0.3;stroke-miterlimit:10;}
+	.st615{fill:#FFFFFF;stroke:#13110C;stroke-width:0.6;stroke-miterlimit:10;}
+	.st616{fill:#CFB99E;stroke:#13110C;stroke-width:0.6;stroke-miterlimit:10;}
+	.st617{fill:none;stroke:#13110C;stroke-width:0.3;stroke-miterlimit:10;}
+	.st618{fill:#13110C;}
+	.st619{fill:#13110C;stroke:#13110C;stroke-width:0.6;stroke-miterlimit:10;}
+	.st620{fill:none;stroke:#13110C;stroke-width:0.6;stroke-miterlimit:10;}
+	.st621{stroke:#000000;stroke-miterlimit:10;}
+	.st622{fill:#CBBBA0;stroke:#000000;stroke-width:0.6;stroke-miterlimit:10;}
+	.st623{fill:#FFFFFF;stroke:#000000;stroke-width:0.8;stroke-miterlimit:10;}
+	.st624{fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:10;}
+	.st625{fill:#FFFFFF;stroke:#000000;stroke-width:0.6;stroke-miterlimit:10;}
+</style>
+<g id="FONDO">
+</g>
+<g id="leyenda_ejemplo">
+</g>
+<g id="Limite_Municipal">
+</g>
+<g id="Poligono_Base_San_Dionisio" class="st12">
+</g>
+<g id="Topografia" class="st12">
+</g>
+<g id="Mapa_area_verde" class="st12">
+</g>
+<g id="areas_verdes">
+</g>
+<g id="Microregiones">
+</g>
+<g id="MAPA_MICROCUENCAS" class="st12">
+</g>
+<g id="Red_Vial">
+</g>
+<g id="Corredores">
+</g>
+<g id="RIOS">
+</g>
+<g id="Mapa_Red_Vial" class="st12">
+</g>
+<g id="Cuadro_Leyenda">
+	<g id="TEXTO_1">
+	</g>
+	<g id="Capa_25">
+	</g>
+	<g id="Capa_30">
+	</g>
+	<g id="XMLID_00000116234698580831037810000004788402350671360698_">
+		<g id="XMLID_00000049904360323234735860000013175460618212039049_">
+			<g id="XMLID_00000057851544078600421480000003422513722286296248_">
+				<path id="XMLID_00000163763916929828544980000002619701543623176372_" class="st265" d="M33.18,12.33h136.8
+					c4.37,0,7.92,3.56,7.92,7.88v136.73c0,4.35-3.55,7.87-7.92,7.87H33.18c-4.35,0-7.89-3.52-7.89-7.87V20.21
+					C25.29,15.89,28.83,12.33,33.18,12.33L33.18,12.33z"/>
+				<path id="XMLID_00000176022093720252233220000017885700404042151555_" class="st266" d="M41.76,24.57h116.36
+					c3.69,0,6.72,3.01,6.72,6.69v117.98c0,3.7-3.03,6.7-6.72,6.7H41.76c-3.7,0-6.73-3-6.73-6.7V31.26
+					C35.03,27.57,38.06,24.57,41.76,24.57L41.76,24.57z"/>
+			</g>
+			<path id="XMLID_00000137134604206367839520000018271571270048012986_" class="st11" d="M70.46,134.99c0,0,34.58,13.38,51.79,1.28
+				c0,0,12.59-13.49,18-28.54c0.17-0.47,0.33-0.94,0.48-1.4c5.1-15.61,12.12-33.18,19.44-35.22c0,0-14.97,0.82-43.02,29.81
+				C117.14,100.92,84,133.4,70.46,134.99z"/>
+			<path id="XMLID_00000146482133279098526660000002196142772805516477_" class="st11" d="M60.1,129.58c0,0,26.77-2.55,50.35-25.48
+				c0,0,27.57-32.17,50.99-35.67c0,0-20.87,1.12-36.17,15.61c0,0-25.81,21.65-29.32,23.56c0,0-21.36,13.22-32.67,11.63
+				c0,0-9.72-0.48-9.72,3.66C53.57,122.9,53.74,130.74,60.1,129.58z"/>
+			<path id="XMLID_00000138538393204074815500000016226967809741779349_" class="st262" d="M95.23,120.34c0,0,8.99-1.91,16.32,0
+				c0,0-8.48-4.97-9.82-4.61L95.23,120.34z"/>
+			<path id="XMLID_00000114758387470479168850000007895286954060482223_" class="st262" d="M112.04,106.22c0,0,6.65,1.06,9.2,2.77
+				c0,0-2.69-5.91-5.93-6.31L112.04,106.22z"/>
+			<path id="XMLID_00000091727397418975379500000009022077185046295713_" class="st262" d="M128.67,87.9c0,0,6.55,2.16,7.82,4.71
+				c0,0-7.09-3.6-9.38-2.42C127.11,90.18,127.7,87.86,128.67,87.9z"/>
+			<polyline id="XMLID_00000093893032356943473180000012484553218120946317_" class="st263" points="59.18,74.38 95.59,39.19 
+				129.85,71.45 			"/>
+			<path id="XMLID_00000007404500429487901190000011078198364496116628_" class="st11" d="M91.28,102.9
+				c3.43-1.87,28.12-22.56,29.22-23.48l-0.04-0.95L95.9,52.8L63.94,85.1v29.26C75.55,112.62,91.28,102.9,91.28,102.9z"/>
+		</g>
+		<g id="XMLID_00000101093775640666689670000006840380450003860883_">
+			<g id="XMLID_00000138549162675297870430000015552643698785923462_">
+				<path class="st264" d="M190.66,155.94c0,16.83-13.65,30.47-30.49,30.47s-30.49-13.64-30.49-30.47
+					c0-16.83,13.65-30.47,30.49-30.47S190.66,139.11,190.66,155.94z"/>
+				<g>
+					<path class="st11" d="M188.78,155.94c-0.07,11.82-7.53,22.79-18.72,26.85c-11.39,4.13-24.26,0.61-32.01-8.68
+						c-7.68-9.21-8.56-22.76-2.37-32.98c6.18-10.2,18.47-15.64,30.17-13.23c11.61,2.39,20.65,11.84,22.59,23.53
+						C188.68,152.92,188.77,154.43,188.78,155.94c0.01,2.41,3.76,2.42,3.75,0c-0.08-13.52-8.62-25.73-21.32-30.41
+						c-12.61-4.65-27.38-0.65-35.92,9.71c-8.66,10.5-9.94,25.7-2.86,37.4c7.02,11.6,20.79,17.6,34.08,15.02
+						c13.02-2.53,23.57-13.43,25.59-26.55c0.26-1.72,0.41-3.44,0.42-5.17C192.54,153.52,188.79,153.52,188.78,155.94z"/>
+				</g>
+			</g>
+			<g id="XMLID_00000175293252134797585480000007689013871923657140_">
+				
+					<rect id="XMLID_00000137099228520589036370000007231535010963958198_" x="146.93" y="141.2" class="st18" width="33.15" height="38.3"/>
+				<path class="st11" d="M168.72,148.88l-3.83,0.3c-0.34-1.51-0.83-2.61-1.45-3.29c-1.04-1.1-2.32-1.65-3.85-1.65
+					c-1.23,0-2.3,0.34-3.23,1.03c-1.21,0.88-2.17,2.17-2.87,3.87c-0.7,1.7-1.06,4.11-1.09,7.25c0.93-1.41,2.06-2.46,3.4-3.14
+					c1.34-0.68,2.75-1.03,4.21-1.03c2.57,0,4.75,0.94,6.55,2.83c1.8,1.89,2.71,4.33,2.71,7.32c0,1.97-0.42,3.79-1.27,5.48
+					c-0.85,1.69-2.01,2.98-3.5,3.88c-1.48,0.9-3.17,1.35-5.05,1.35c-3.21,0-5.82-1.18-7.85-3.54s-3.04-6.24-3.04-11.66
+					c0-6.06,1.12-10.46,3.36-13.21c1.95-2.39,4.58-3.59,7.89-3.59c2.47,0,4.49,0.69,6.06,2.07
+					C167.46,144.53,168.41,146.44,168.72,148.88z M153,162.39c0,1.33,0.28,2.59,0.84,3.8c0.56,1.21,1.35,2.13,2.36,2.77
+					c1.01,0.63,2.07,0.95,3.19,0.95c1.62,0,3.02-0.66,4.19-1.97c1.17-1.31,1.75-3.09,1.75-5.34c0-2.17-0.58-3.87-1.73-5.12
+					s-2.61-1.87-4.36-1.87c-1.74,0-3.21,0.62-4.43,1.87S153,160.36,153,162.39z"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="equipamiento_municipal">
+</g>
+<g id="patrimonio_natural">
+</g>
+<g id="Animales">
+</g>
+<g id="Oficios_en_mapa">
+</g>
+<g id="bus_y_camion">
+</g>
+<g id="TITULO">
+</g>
+<g id="Oficios">
+</g>
+<g id="Iconografia_Oficios">
+</g>
+<g id="Sitios_Turísticos_culturales">
+</g>
+<g id="Texto_2" class="st12">
+</g>
+<g id="Poblados">
+</g>
+<g id="flora_y_fauna">
+</g>
+<g id="limite_blanco">
+</g>
+<g id="Capa_32">
+</g>
+<g id="pie_de_mapa" class="st12">
+</g>
+<g id="Patrimonio_Construido">
+</g>
+</svg>

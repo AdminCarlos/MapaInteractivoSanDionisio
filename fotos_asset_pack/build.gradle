@@ -4,7 +4,7 @@ plugins {
 }
 
 assetPack {
-    packName.set("fotos_asset_paclk")
+    packName.set("fotos_asset_pack")
             dynamicDelivery {
                 deliveryType.set("install-time")
             }

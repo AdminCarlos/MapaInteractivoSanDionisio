@@ -5,16 +5,16 @@ import android.content.Context
 import android.content.res.Resources
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
+import android.graphics.drawable.Drawable
 import android.net.Uri
 import android.os.Bundle
+import android.util.TypedValue
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.GridLayout
-import android.widget.ImageView
-import android.widget.LinearLayout
-import android.widget.TextView
+import android.view.ViewGroup.LayoutParams
+import android.widget.*
 import androidx.core.view.GravityCompat
 import androidx.core.view.doOnLayout
 import androidx.fragment.app.DialogFragment
@@ -31,6 +31,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlin.math.roundToInt
+
 
 class LeyendasDialog() : DialogFragment() {
 
@@ -67,27 +68,50 @@ class LeyendasDialog() : DialogFragment() {
 
             withContext(Dispatchers.Main) {
 
-                /*rvLeyendas.layoutManager = GridLayoutManager(contexto,3)
-                val adapter = LeyendasAdapter(listaLeyendas, contexto)
-                rvLeyendas.adapter = adapter*/
-
                 listaCategorias.forEach { categoria ->
 
                     val container = LinearLayout(contexto)
                     container.orientation = LinearLayout.HORIZONTAL
+                    container.gravity = Gravity.CENTER
+                    container.setBackgroundColor(Color.parseColor("#000000"))
 
                     view.layoutPadreDialogLeyendas.addView(container)
 
-                    val labelCategoria = TextView(contexto)
+                    val labelCategoria = Button(contexto)
                     labelCategoria.setText(categoria.nombre)
+                    labelCategoria.gravity = Gravity.CENTER
+
+                    if (categoria.icono != null) {
+
+                        val iconDrawable = Drawable.createFromResourceStream(
+                            resources,
+                            TypedValue(),
+                            resources.assets.open(categoria.icono!!),
+                            null
+                        )
+
+                        iconDrawable!!.setBounds(0, 0, (width * 0.1).toInt(), (width * 0.1).toInt())
+
+//                        container.setPadding(70, 0, 70, 0)
+
+                        labelCategoria.setCompoundDrawables(iconDrawable, null, null, null)
+
+                    }
+
+                    else {
+
+                        labelCategoria.setCompoundDrawables(null, null, null, null)
+
+                    }
 
                     container.addView(labelCategoria)
 
-                    labelCategoria.layoutParams.width = (width * 0.75).roundToInt()
-                    labelCategoria.textSize = (width * 0.025).toFloat()
-                    labelCategoria.textAlignment = View.TEXT_ALIGNMENT_CENTER
+                    labelCategoria.layoutParams.width = LayoutParams.WRAP_CONTENT
+//                    labelCategoria.textSize = (width * 0.025).toFloat()
+//                    labelCategoria.textAlignment = View.TEXT_ALIGNMENT_VIEW_END
                     labelCategoria.gravity = Gravity.CENTER
-                    labelCategoria.setPadding(0, (height * 0.015).toInt(), 0, (height * 0.015).toInt())
+//                    labelCategoria.setPadding(0, (height * 0.015).toInt(), 0, (height * 0.015).toInt())
+
                     labelCategoria.setBackgroundColor(Color.parseColor("#000000"))
                     labelCategoria.setTextColor(Color.parseColor("#FFFFFF"))
 
@@ -99,7 +123,6 @@ class LeyendasDialog() : DialogFragment() {
                     view.layoutPadreDialogLeyendas.addView(childContainer)
 
                     childContainer.layoutParams.width = (width * 0.75).roundToInt()
-
 
                 }
 
