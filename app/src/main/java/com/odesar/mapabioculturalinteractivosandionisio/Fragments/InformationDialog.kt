@@ -23,9 +23,8 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.odesar.mapabioculturalinteractivosandionisio.Database.AppDatabase
 import com.odesar.mapabioculturalinteractivosandionisio.Entities.Lugares
 import com.odesar.mapabioculturalinteractivosandionisio.R
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.dialog_info.*
-import kotlinx.android.synthetic.main.dialog_info.view.*
+import com.odesar.mapabioculturalinteractivosandionisio.databinding.DialogInfoBinding
+import com.odesar.mapabioculturalinteractivosandionisio.databinding.FragmentInfoTabBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -35,6 +34,9 @@ import java.io.InputStream
 import kotlin.math.roundToInt
 
 class InformationDialog(var lugar: Lugares) : DialogFragment() {
+
+    private var _binding : DialogInfoBinding? = null
+    private val binding get() = _binding!!
 
     lateinit var contexto: Context
     val statusBarHeight = Resources.getSystem().getDimensionPixelSize(
@@ -54,7 +56,9 @@ class InformationDialog(var lugar: Lugares) : DialogFragment() {
         dialog?.window?.setGravity(GravityCompat.END)
         dialog?.window?.attributes?.windowAnimations = R.style.DialogAnimation
 
-        return inflater.inflate(R.layout.dialog_info, container, false)
+        _binding = DialogInfoBinding.inflate(inflater, container, false)
+        return binding.root
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -68,8 +72,8 @@ class InformationDialog(var lugar: Lugares) : DialogFragment() {
 
         val db = AppDatabase.getDatabase(contexto)
 
-        view.txtNombre.setText(lugar.nombre)
-        view.txtDescripcion.text = lugar.descripcion
+        binding.txtNombre.setText(lugar.nombre)
+        binding.txtDescripcion.text = lugar.descripcion
 
         lifecycleScope.launch(Dispatchers.IO) {
 
@@ -85,12 +89,12 @@ class InformationDialog(var lugar: Lugares) : DialogFragment() {
 
                     iconoLugar.tag = "IMAGEN"
 
-                    layoutPadreDialog.addView(iconoLugar)
+                    binding.layoutPadreDialog.addView(iconoLugar)
 
                     iconoLugar.setPadding(0, 40, 0, 0)
 
                     val thumbnailLugar = TextView(contexto)
-                    layoutPadreDialog.addView(thumbnailLugar)
+                    binding.layoutPadreDialog.addView(thumbnailLugar)
                     thumbnailLugar.text = imagen.thumbnail
                     thumbnailLugar.setTextColor(ContextCompat.getColor(contexto,R.color.white))
                     thumbnailLugar.textSize = 17.0F
@@ -155,8 +159,12 @@ class InformationDialog(var lugar: Lugares) : DialogFragment() {
                                             DiskCacheStrategy.NONE
                                         ).into(iconoLugar)
 
-                                    newImage.close()
-                                    imageSource.close()
+                                    withContext(Dispatchers.IO) {
+
+                                        newImage.close()
+                                        imageSource.close()
+
+                                    }
 
                                 }
 
@@ -178,12 +186,12 @@ class InformationDialog(var lugar: Lugares) : DialogFragment() {
 
                             thumbnailVideoLugar.tag = "THUMBNAIL"
 
-                            layoutPadreDialog.addView(thumbnailVideoLugar)
+                            binding.layoutPadreDialog.addView(thumbnailVideoLugar)
 
                             thumbnailVideoLugar.setPadding(0, 40, 0, 0)
 
                             val textoLugar = TextView(contexto)
-                            layoutPadreDialog.addView(textoLugar)
+                            binding.layoutPadreDialog.addView(textoLugar)
                             textoLugar.text = imagen.thumbnail
                             textoLugar.setTextColor(ContextCompat.getColor(contexto,R.color.white))
                             textoLugar.textSize = 17.0F
@@ -393,6 +401,7 @@ class InformationDialog(var lugar: Lugares) : DialogFragment() {
 
     }
 
+    @Deprecated("Deprecated in Java")
     @SuppressLint("NewApi")
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)

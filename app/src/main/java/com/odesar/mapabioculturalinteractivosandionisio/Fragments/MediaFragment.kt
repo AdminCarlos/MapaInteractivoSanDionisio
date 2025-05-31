@@ -17,13 +17,17 @@ import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.lifecycleScope
 import com.odesar.mapabioculturalinteractivosandionisio.Database.AppDatabase
 import com.odesar.mapabioculturalinteractivosandionisio.R
-import kotlinx.android.synthetic.main.fragment_media.*
+import com.odesar.mapabioculturalinteractivosandionisio.databinding.DialogLeyendasBinding
+import com.odesar.mapabioculturalinteractivosandionisio.databinding.FragmentMediaBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.io.BufferedInputStream
 import kotlin.math.roundToInt
 
 class MediaFragment(val src : String) : DialogFragment() {
+
+    private var _binding : FragmentMediaBinding? = null
+    private val binding get() = _binding!!
 
     lateinit var contexto: Context
     val statusBarHeight = Resources.getSystem().getDimensionPixelSize(
@@ -42,7 +46,9 @@ class MediaFragment(val src : String) : DialogFragment() {
         dialog?.window?.setGravity(GravityCompat.END)
         dialog?.window?.attributes?.windowAnimations = R.style.DialogAnimation
 
-        return inflater.inflate(R.layout.fragment_media, container, false)
+        _binding = FragmentMediaBinding.inflate(inflater, container, false)
+        return binding.root
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -85,12 +91,13 @@ class MediaFragment(val src : String) : DialogFragment() {
             mediaController.show()
 
             videoPlayer.setMediaController(mediaController)*/
-            videoPlayer.setVideoPath(videoFile.path)
-            videoPlayer.start()
+            binding.videoPlayer.setVideoPath(videoFile.path)
+            binding.videoPlayer.start()
         }
 
     }
 
+    @Deprecated("Deprecated in Java")
     @SuppressLint("NewApi")
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)

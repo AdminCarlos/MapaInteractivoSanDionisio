@@ -11,13 +11,17 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.odesar.mapabioculturalinteractivosandionisio.Entities.InformacionAdicional
 import com.odesar.mapabioculturalinteractivosandionisio.R
-import kotlinx.android.synthetic.main.fragment_info_tab.view.*
+import com.odesar.mapabioculturalinteractivosandionisio.databinding.DialogExtraInfoBinding
+import com.odesar.mapabioculturalinteractivosandionisio.databinding.FragmentInfoTabBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.io.BufferedInputStream
 
 class InfoTabFragment(var infoAdicional : InformacionAdicional) : Fragment() {
+
+    private var _binding : FragmentInfoTabBinding? = null
+    private val binding get() = _binding!!
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,15 +32,17 @@ class InfoTabFragment(var infoAdicional : InformacionAdicional) : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_info_tab, container, false)
+    ): View {
+
+        _binding = FragmentInfoTabBinding.inflate(inflater, container, false)
+        return binding.root
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        view.txtInfoTab.text = infoAdicional.texto
+        binding.txtInfoTab.text = infoAdicional.texto
 
         val customContext =
             requireActivity().createPackageContext("com.odesar.mapabioculturalinteractivosandionisio", 0)
@@ -95,10 +101,14 @@ class InfoTabFragment(var infoAdicional : InformacionAdicional) : Fragment() {
                 Glide.with(requireActivity()).asBitmap().load(finalImage)
                     .skipMemoryCache(true).diskCacheStrategy(
                         DiskCacheStrategy.NONE
-                    ).into(view.imgTab)
+                    ).into(binding.imgTab)
 
-                newImage.close()
-                imageSource.close()
+                withContext(Dispatchers.IO) {
+
+                    newImage.close()
+                    imageSource.close()
+
+                }
 
             }
 

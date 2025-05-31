@@ -17,13 +17,16 @@ import com.odesar.mapabioculturalinteractivosandionisio.Adapters.InformacionAdic
 import com.odesar.mapabioculturalinteractivosandionisio.Database.AppDatabase
 import com.odesar.mapabioculturalinteractivosandionisio.Entities.InformacionAdicional
 import com.odesar.mapabioculturalinteractivosandionisio.R
-import kotlinx.android.synthetic.main.dialog_extra_info.view.*
+import com.odesar.mapabioculturalinteractivosandionisio.databinding.DialogExtraInfoBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlin.math.roundToInt
 
 class ExtraInfoDialog : DialogFragment() {
+
+    private var _binding : DialogExtraInfoBinding? = null
+    private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -35,7 +38,9 @@ class ExtraInfoDialog : DialogFragment() {
         dialog?.window?.setDimAmount(0F)
         dialog?.window?.setGravity(GravityCompat.END)
         dialog?.window?.attributes?.windowAnimations = R.style.DialogAnimation
-        return inflater.inflate(R.layout.dialog_extra_info, container, false)
+
+        _binding = DialogExtraInfoBinding.inflate(inflater, container, false)
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -50,12 +55,12 @@ class ExtraInfoDialog : DialogFragment() {
             withContext(Dispatchers.Main) {
 
                 //Instanciar viewpager y falta crear el fragment que creara el viewpager, NO ES ESTE
-                val vwPager = view.viewPager2Textos
+                val vwPager = binding.viewPager2Textos
                 val pagerAdapter = InformacionAdicionalPagerAdapter(this@ExtraInfoDialog, listTabs)
 
                 vwPager.adapter = pagerAdapter
 
-                TabLayoutMediator(view.tabLayoutTitulos, vwPager) { tab, position ->
+                TabLayoutMediator(binding.tabLayoutTitulos, vwPager) { tab, position ->
 
                     tab.text = listTabs[position].nombre
 
@@ -67,6 +72,7 @@ class ExtraInfoDialog : DialogFragment() {
 
     }
 
+    @Deprecated("Deprecated in Java")
     @SuppressLint("NewApi")
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)

@@ -37,7 +37,6 @@ import com.odesar.mapabioculturalinteractivosandionisio.Fragments.InformationDia
 import com.odesar.mapabioculturalinteractivosandionisio.Fragments.LeyendasDialog
 import com.odesar.mapabioculturalinteractivosandionisio.databinding.ActivityMainBinding
 import com.otaliastudios.zoom.ZoomEngine
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -123,10 +122,10 @@ class MainActivity : AppCompatActivity() {
 
                                 container.pivotX = ((container.width / 2).toFloat())
                                 container.pivotY = ((container.height / 2).toFloat())
-                                container.scaleX = zoomLevels[zoomImage.zoom.toInt()]
-                                container.scaleY = zoomLevels[zoomImage.zoom.toInt()]
+                                container.scaleX = zoomLevels[binding.zoomImage.zoom.toInt()]
+                                container.scaleY = zoomLevels[binding.zoomImage.zoom.toInt()]
 
-                                if (zoomImage.zoom > 6) {
+                                if (binding.zoomImage.zoom > 6) {
 
                                     if (!isVisible(container)) {
 
@@ -424,9 +423,9 @@ class MainActivity : AppCompatActivity() {
 
     fun resetEverything() {
 
-        framePadre.removeAllViews()
-        zoomImage.engine.clear()
-        zoomImage.zoomTo(1.0F, false)
+        binding.framePadre.removeAllViews()
+        binding.zoomImage.engine.clear()
+        binding.zoomImage.zoomTo(1.0F, false)
 
     }
 

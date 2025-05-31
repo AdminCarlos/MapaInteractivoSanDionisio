@@ -22,11 +22,8 @@ import androidx.lifecycle.lifecycleScope
 import com.bumptech.glide.Glide
 import com.odesar.mapabioculturalinteractivosandionisio.Database.AppDatabase
 import com.odesar.mapabioculturalinteractivosandionisio.R
-import kotlinx.android.synthetic.main.activity_main.view.*
-import kotlinx.android.synthetic.main.dialog_info.*
-import kotlinx.android.synthetic.main.dialog_info.view.*
-import kotlinx.android.synthetic.main.dialog_leyendas.*
-import kotlinx.android.synthetic.main.dialog_leyendas.view.*
+import com.odesar.mapabioculturalinteractivosandionisio.databinding.DialogInfoBinding
+import com.odesar.mapabioculturalinteractivosandionisio.databinding.DialogLeyendasBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -34,6 +31,9 @@ import kotlin.math.roundToInt
 
 
 class LeyendasDialog() : DialogFragment() {
+
+    private var _binding : DialogLeyendasBinding? = null
+    private val binding get() = _binding!!
 
     val width = Resources.getSystem().displayMetrics.widthPixels
     val height = Resources.getSystem().displayMetrics.heightPixels
@@ -49,7 +49,10 @@ class LeyendasDialog() : DialogFragment() {
         dialog?.window?.setDimAmount(0F)
         dialog?.window?.setGravity(GravityCompat.END)
         dialog?.window?.attributes?.windowAnimations = R.style.DialogAnimation
-        return inflater.inflate(R.layout.dialog_leyendas, container, false)
+
+        _binding = DialogLeyendasBinding.inflate(inflater, container, false)
+        return binding.root
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -59,7 +62,7 @@ class LeyendasDialog() : DialogFragment() {
 
         val db = AppDatabase.getDatabase(contexto)
 
-        view.txtNombresLeyenda.text = "Leyendas"
+        binding.txtNombresLeyenda.text = "Leyendas"
 
         lifecycleScope.launch(Dispatchers.IO) {
 
@@ -75,7 +78,7 @@ class LeyendasDialog() : DialogFragment() {
                     container.gravity = Gravity.CENTER
                     container.setBackgroundColor(Color.parseColor("#000000"))
 
-                    view.layoutPadreDialogLeyendas.addView(container)
+                    binding.layoutPadreDialogLeyendas.addView(container)
 
                     val labelCategoria = Button(contexto)
                     labelCategoria.setText(categoria.nombre)
@@ -120,7 +123,7 @@ class LeyendasDialog() : DialogFragment() {
                     childContainer.columnCount = 4
                     childContainer.id = categoria.id!!
 
-                    view.layoutPadreDialogLeyendas.addView(childContainer)
+                    binding.layoutPadreDialogLeyendas.addView(childContainer)
 
                     childContainer.layoutParams.width = (width * 0.75).roundToInt()
 
@@ -134,7 +137,7 @@ class LeyendasDialog() : DialogFragment() {
                     val labelLeyenda = TextView(contexto)
                     labelLeyenda.setText(leyenda.nombre)
 
-                    val padre = view.layoutPadreDialogLeyendas.findViewById<GridLayout>(leyenda.categoria!!.toInt())
+                    val padre = binding.layoutPadreDialogLeyendas.findViewById<GridLayout>(leyenda.categoria!!.toInt())
                     padre.addView(container)
 
                     container.layoutParams.width = ((width * 0.75) * 0.25).toInt()
@@ -169,6 +172,7 @@ class LeyendasDialog() : DialogFragment() {
 
     }
 
+    @Deprecated("Deprecated in Java")
     @SuppressLint("NewApi")
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
