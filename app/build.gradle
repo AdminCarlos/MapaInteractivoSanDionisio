@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    namespace 'com.odesar.mapabioculturalinteractivosandionisio'
-    compileSdk 34
+    namespace 'org.odesar.mapa_biocultural_interactivo_san_dionisio'
+    compileSdk 36
 
     defaultConfig {
-        applicationId "com.odesar.mapabioculturalinteractivosandionisio"
+        applicationId "org.odesar.mapa_biocultural_interactivo_san_dionisio"
         minSdk 21
-        targetSdk 34
+        targetSdk 36
         versionCode 1
         versionName "1.0"
 
